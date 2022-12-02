@@ -1,0 +1,11 @@
+GET http://localhost:3003/characters
+
+###
+PUT http://localhost:3003/characters
+Content-Type: application/json
+
+{
+    "name": "Jean Grey",
+    "gender": "FEMALE",
+    "description": "Uma mutante telepata com os poderes da Fênix Negra"
+}

@@ -14,5 +14,5 @@ export type Character = {
     id: number,
     name: string,
     gender: GENDER,
-    description: string
+    description?: string // ? = transforma o parametro opcional
 }

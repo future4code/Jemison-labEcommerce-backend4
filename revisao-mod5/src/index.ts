@@ -1,14 +1,9 @@
-import express from "express"
+import app from './app';
+import getAllCharacters from './endpoints/getAllCharacters';
+import putCreateCharacter from './endpoints/putCreateCharacter';
 
 
-import cors from 'cors'
 
-const app = express()
+app.get("/characters", getAllCharacters)
 
-app.use(express.json())
-
-app.use(cors())
-
-app.listen(3003, () => {
-    console.log("Server is running in http://localhost:3003");
-});
+app.put("/characters", putCreateCharacter)

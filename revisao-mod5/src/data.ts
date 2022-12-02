@@ -30,5 +30,23 @@ export const characters: Character[] = [
         name: "José",
         gender: GENDER.MALE,
         description: "José é um cara legal"
+    },
+    {
+        id: 4,
+        name: "Dr. Charles Xavier",
+        gender: GENDER.MALE,
+        description: "Professor de mutantes e direor do instituto Xavier, com seus poderes mentais, é capaz de ler a mente de qualquer um."
+    },
+    {
+        id: 5,
+        name: "Wolverine",
+        gender: GENDER.MALE,
+        description: "Mutante com poderes de cura acelerada e garras retráteis."
+    },
+    {
+        id: 6,
+        name: "Magneto",
+        gender: GENDER.MALE,
+        description: "Mutante com poderes magnéticos, é capaz de controlar metais e manipular campos magnéticos."
     }
 ]
