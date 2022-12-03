@@ -3,7 +3,7 @@ import knex from "knex";
 
 dotenv.config();
 
-export const connection = knex({
+export const connections = knex({
 	client: "mysql",
 	connection: {
     host: process.env.DB_HOST,
