@@ -7,7 +7,7 @@ export default async function deleteCharacter (req: Request, res: Response): Pro
     try {
         const id: number = Number(req.params.id);
         
-        await connections("Actors")
+        await connections("Characters")
         .delete()
         .where({id})
         

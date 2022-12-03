@@ -12,8 +12,8 @@ export default async function (req: Request, res: Response): Promise<void> {
         // const characters: Character = await connections.raw("SELECT * FROM Actors")
         // res.status(200).send(result[0])
         
-        const Actors: Character = await connections("Actors")
-        res.send(Actors)
+        const Characters: Character = await connections("Characters")
+        res.send(Characters)
     } catch (error) {
         res.status(errorCode).send("Unexpected server error");
     }

@@ -11,4 +11,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3003/characters/1
+DELETE http://localhost:3003/characters/6
