@@ -9,3 +9,6 @@ Content-Type: application/json
     "gender": "FEMALE",
     "description": "Uma mutante telepata com os poderes da Fênix Negra"
 }
+
+###
+DELETE http://localhost:3003/characters/1
