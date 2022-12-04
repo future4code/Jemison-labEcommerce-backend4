@@ -22,7 +22,7 @@ export default async function (req: Request, res: Response): Promise<void> {
         
         const Characters: Character[] = await connections("Characters")
             .where("name", "LIKE", `%${name}%`)
-            .orderBy(orderBy as string || "name", orderType as string || "ASC")
+            .orderBy(orderBy as string || "name", orderType as string)
             .offset(offset)
 
         res.send(Characters)
