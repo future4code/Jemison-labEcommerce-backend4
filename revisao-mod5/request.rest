@@ -1,4 +1,11 @@
-GET http://localhost:3003/characters
+GET http://localhost:3003/characters?name=o&ordertype=DESC
+//busca por nome e ordena por nome em ordem decrescente
+
+###
+GET http://localhost:3003/characters?name=a&page=2
+//busca por nome e paginação
+
+
 
 ###
 PUT http://localhost:3003/characters
@@ -9,3 +16,9 @@ Content-Type: application/json
     "gender": "FEMALE",
     "description": "Uma mutante telepata com os poderes da Fênix Negra"
 }
+
+// Cria um novo character
+
+###
+DELETE http://localhost:3003/characters/6
+// Deleta o character com id 6 ou qualquer outro id que eu colocar no url
