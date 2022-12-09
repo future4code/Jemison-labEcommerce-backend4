@@ -1,4 +1,10 @@
 # labEcommerce-backend
 
 
-### Coloque as informações do seu projeto, o link da documentação e o link deploy
+### Link Deploy
+
+- [https://revisao-backend-m8xt.onrender.com]
+
+### Link Documentação
+
+- [https://documenter.getpostman.com/view/22370646/2s8YzMXQrD]
